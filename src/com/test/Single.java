@@ -1,5 +1,7 @@
 package com.test;
 
+import java.util.concurrent.FutureTask;
+
 /**
  * @Author ：chenguojun
  * @Date ：Created in 19:54 2018/10/18
@@ -56,8 +58,14 @@ public class Single {
     }
 
     public static Single getInstance(){
+
+
        return SingleInstance.instance;
     }
+
+
+
+
 
 
 
